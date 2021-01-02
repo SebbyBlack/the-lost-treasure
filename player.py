@@ -18,4 +18,11 @@ class Player:
         else:
             print(f'YOU CAN NOT GO THAT WAY')
 
+    # Get/Drop Items
+    def get_item(self, pickup_item):
+        self.inventory.append(pickup_item)
+
+    def drop_item(self, drop_item):
+        self.inventory.remove(drop_item)
+        self.current_room.inventory.append(drop_item)
     
