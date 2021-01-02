@@ -26,3 +26,12 @@ class Player:
         self.inventory.remove(drop_item)
         self.current_room.inventory.append(drop_item)
     
+
+    # Output to console
+    def __str__(self):
+        output = ''
+        output += '---------------------------------------- \n'
+        output += f'Player Name: {self.name} \n'
+        output += f'Current Room: {self.current_room} \n'
+
+        return output
