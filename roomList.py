@@ -23,6 +23,8 @@ room = {
 
     'cabin': Room("Cabin", False, "You walk through the path and stop upon a Cabin. Theres a key on the front deck. The door to the Cabin is locked."),
 
-    'cabinInside': Room("Cabin Inside", False, "Inside, the cabin is small, with a wooden table and chair sitting next to a fireplace, there's an open chest with treasure inside")
+    'cabinInside': Room("Cabin Inside", False, "Inside, the cabin is small, with a wooden table and chair sitting next to a fireplace, there's an open chest with treasure inside"),
+
+    'secretHatch': Room("Secret Hatch", False, "You go down the hatch, halfway down the ladder you realize there is almost no light"), 
 }
 
