@@ -26,6 +26,9 @@ class Player:
         self.inventory.remove(drop_item)
         self.current_room.inventory.append(drop_item)
     
+    # Open Doors
+    def open_door(self, open_door):
+        
 
     # Output to console
     def __str__(self):
